@@ -43,3 +43,13 @@ Y:来源平台
 ```
 
 请在题解中写清楚你的思路、算法或步骤；如果有代码，也可以一并附上。欢迎用不同的解法互相交流。
+
+
+Today:
+## 基础题
+
+[题目](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Basic/2026/08/09/Problems) | [题解](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Basic/2026/08/09/Solutions)
+
+## 可乐题
+
+[题目](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Cola/2026/08/09/Problems) | [题解](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Cola/2026/08/09/Solutions)
