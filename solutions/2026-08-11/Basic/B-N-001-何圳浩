@@ -1,0 +1,51 @@
+#include<stdio.h>
+typedef long long ll;
+ll minll(ll a,ll b){
+	if(a<b)
+	return a;
+	else
+	return b;
+}
+ll maxll(ll a,ll b)
+{
+	if(a>b)
+	return a;
+	else
+	return b;
+}
+int main()
+{
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{
+		int n;
+		scanf("%d",&n);
+		ll w[105];
+		for(int i=0;i<n;i++)
+		{
+			scanf("%lld",&w[i]);
+		}
+		if(n%2==1)
+		{
+			printf("no");
+			continue;
+		}
+		ll L=-10000000000;
+		ll R=10000000000;
+		for(int i=0;i<n;i+=2)
+		{
+			ll x=w[i];
+			ll y=w[i+1];
+			ll curl=minll(x,y);
+			ll curr=maxll(x,y);
+			L =maxll(L,curl);
+			R =minll(R,curr); 
+		}
+		if(L<R)
+		 printf("YES");
+		else
+		 printf("NO");
+	}
+	return 0;
+}
