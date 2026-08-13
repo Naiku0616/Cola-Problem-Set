@@ -48,8 +48,12 @@ Y:来源平台
 Today:
 ## 基础题
 
-[题目](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Basic/2026/08/09/Problems) | [题解](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Basic/2026/08/09/Solutions)
+| 难度 | 题目 | 提示 |
+| :---: | :---: | :--- |
+| 基础 | [明明的随机数](https://www.luogu.com.cn/problem/P1059) | 去重、排序、集合 |
 
 ## 可乐题
 
-[题目](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Cola/2026/08/09/Problems) | [题解](https://github.com/hamstercube/Cola-Problem-Set/tree/main/Cola/2026/08/09/Solutions)
+| 难度 | 题目 | 提示 |
+| :---: | :---: | :--- |
+| 基础 | [[JLOI2011] 飞行路线](https://www.luogu.com.cn/problem/P4568) | 分层图、状态扩展、Dijkstra |
